@@ -40,7 +40,7 @@
   Include files
   -------------------------------------------------------------------------*/ 
   
-#include <linux/netdevice.h>
+
 #include <linux/skbuff.h>
 #include <vos_list.h>
 #include <vos_types.h>
