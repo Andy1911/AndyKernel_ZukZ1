@@ -7443,8 +7443,6 @@ static int taiko_codec_probe(struct snd_soc_codec *codec)
 	mutex_unlock(&dapm->codec->mutex);
 
 	codec->ignore_pmdown_time = 1;
-<<<<<<< HEAD
-=======
 
 	/*
 	 * Get the default values during probe
@@ -7456,7 +7454,6 @@ static int taiko_codec_probe(struct snd_soc_codec *codec)
 	soundcontrol.default_mic_value = taiko_read(codec,
 		TAIKO_A_CDC_TX3_VOL_CTL_GAIN);
 
->>>>>>> ad0e109... sound: add sound control to increase headphones, speaker and mic gain.
 	return ret;
 
 err_irq:

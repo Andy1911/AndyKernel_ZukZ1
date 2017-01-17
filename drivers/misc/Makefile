@@ -1,3 +1,4 @@
+
 #
 # Makefile for misc devices that really don't fit anywhere else.
 #
@@ -73,8 +74,6 @@ obj-$(CONFIG_TI_DRV2667) += ti_drv2667.o
 obj-$(CONFIG_QPNP_MISC) += qpnp-misc.o
 obj-$(CONFIG_CCLOGIC)		+= cclogic/
 obj-$(CONFIG_UID_CPUTIME) 	+= uid_cputime.o
-<<<<<<< HEAD
-=======
+
 obj-$(CONFIG_SN3193_SLED) += shineled/
 obj-y				+= sound_control.o
->>>>>>> ad0e109... sound: add sound control to increase headphones, speaker and mic gain.
